@@ -12,19 +12,19 @@
 #   bio: Siyi Tang is a PhD student in Electrical Engineering at Stanford University advised by Prof. Daniel Rubin. Her research interests lie in the intersection of machine learning and medicine. She develops ML methods for medical applications by leveraging the important characteristics in medical data. 
 #   image: assets/images/siyi-tang.jpg
   
-- name: Amara Tariq 
-  institution: Mayo Clinic
-  email: tariq.amara@mayo.edu
+- name: Aliyu Kasimu
+  institution: The Hong Kong University of Science and Technology
+  email: akasimu@connect.ust.hk
   bio: Amara Tariq is a Senior Data Science Analyst in the Machine Intelligence in Medicine and Imaging (MI-2) lab at Mayo Clinic Arizona. Her research interests lie in the development of fusion models for multi-modal biomedical data for applications including clinical event prediction and opportunistic screening for diseases. 
   image: assets/images/amara-tariq.jpg
 
-- name: Avisha Das
-  institution: Mayo Clinic
+- name: Franklin Eze
+  institution: Central South University
   email: das.avisha@mayo.edu
   bio: Avisha is a Research Fellow at Arizona Advanced AI & Innovation (A3I) Hub, Mayo Clinic Arizona. Her research interests lie in Large Language Modeling, focusing on natural language generation and understanding. At the Mayo Clinic, she is working on Privacy Concerns and Mitigation of LLMs in biomedical and healthcare domain.
   image: assets/images/avisha-das.jpeg
 
-- name: Imon Banerjee
+- name: Ahmed Jamiu Opeyemi
   institution: Mayo Clinic & ASU
   bio: Imon Banerjee is a lead AI scientist, affiliated with the Mayo Clinic and Arizona State University. Work in the lab focuses on Multimodal fusion of imaging and nonimaging data for clinical diagnosis and prognosis, NLP to support data curation for state and national cancer registry, and Fair AI model development using computational debiasing.
   image: assets/images/imon.png

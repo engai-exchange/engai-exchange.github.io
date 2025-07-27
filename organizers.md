@@ -23,6 +23,6 @@ nav_order: 6
 
 ## Founding Members
 
-- Nandita Bhaskhar
-- Siyi Tang
-- Daniel Rubin
+- Aliyu Kasimu
+- Franklin Eze
+- Jamiu Ahmed Opeyemi
