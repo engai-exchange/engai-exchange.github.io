@@ -1,0 +1,49 @@
+$body-background-color: $white;
+$sidebar-color: $cardinal-red;
+$border-color: $grey-lt-100;
+
+$body-text-color: $grey-dk-100;
+$body-heading-color: $grey-dk-300;
+$title-color: $white !important;
+
+$nav-parent-link-color: $white; // side bar nav top level link
+$nav-expander-link-color: $fog; // side bar arrow (usually same as top level)
+$nav-child-link-color: $fog; // side bar child level link
+
+$aux-nav-link-color: $cardinal-red-dark; // aux nav link
+$aux-nav-hover-color: $cardinal-red-dark;
+$aux-nav-hover-background: $fog;
+$menu-button-color: $white; // menu-button in small layouts
+
+$nav-active-background: $cardinal-red-dark;
+$nav-active-color: $white;
+$nav-hover-background: $white;
+$nav-hover-color: $cardinal-red;
+$nav-active-background-child: $cardinal-red-dark;
+$nav-active-color-child: $fog;
+$nav-hover-background-child: $fog;
+$nav-hover-color-child: $cardinal-red;
+
+$side-footer-color: $grey-dk-000;
+$side-footer-background-color: $white;
+$side-footer-link-color: $grey-dk-000;
+
+$subheading-color: $stone;
+
+$link-color: $cardinal-red;
+$link-underline-color: $fog;
+$link-underline-hover-color: $cardinal-red;
+
+$btn-primary-color: $cardinal-red;
+$base-button-color: $beige-light;
+
+$selection-color: $white;
+$selection-background: $palo-verde;
+
+$code-background-color: $grey-lt-000;
+
+$search-background-color: $white;
+$search-result-preview-color: $grey-dk-000;
+
+$table-background-color: $grey-lt-000;
+$feedback-color: darken($sidebar-color, 3%);
