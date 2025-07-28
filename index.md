@@ -23,8 +23,8 @@ We will be having weekly sessions (on **Mondays, 1-2pm PT**) where our invited g
 
 ---
 
-Topics of interest to these groups include but are not limited to:
--	Finite Element Method for Structural Integrity Assessment
+Topics of interest to this group include but are not limited to:
+-	Finite Element Method and Applications 
 -	Vehicle-Bridge Interaction Dynamics
 -	Reduced Order Modeling Structural and Fluid Dynamics
 -	Aerodynamics of High-Speed Vehicles
@@ -44,6 +44,6 @@ Topics of interest to these groups include but are not limited to:
 -	Quantum Sensing in Materials Characterization
 -	Resilient Infrastructure Against Climate Change
 -	Robotics in Precision Manufacturing
--   All Artificial-Intelligence applications
+-   All related Artificial-Intelligence Applications
 
 
