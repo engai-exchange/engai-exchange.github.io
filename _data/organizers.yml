@@ -1,16 +1,4 @@
-- name: Nandita Bhaskhar
-  email: nanbhas@stanford.edu
-  website: https://www.stanford.edu/~nanbhas
-  bio: Nandita is an ML Researcher at Apple. She is an alumnus of the Stanford EE PhD program where she was advised by Prof. Daniel Rubin. Her research interests lie in representation learning, robust & trustworthy DL, multimodal and time-series research, especially for health applications.
-  image: assets/images/nandita-bhaskhar.jpg
 
-# - name: Siyi Tang
-#   position: PhD Candidate
-#   institution: Stanford University
-#   email: siyitang@stanford.edu
-#   website: https://siyitang.me
-#   bio: Siyi Tang is a PhD student in Electrical Engineering at Stanford University advised by Prof. Daniel Rubin. Her research interests lie in the intersection of machine learning and medicine. She develops ML methods for medical applications by leveraging the important characteristics in medical data. 
-#   image: assets/images/siyi-tang.jpg
   
 - name: Aliyu Kasimu
   institution: The Hong Kong University of Science and Technology
