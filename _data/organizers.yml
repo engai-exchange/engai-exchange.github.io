@@ -3,16 +3,17 @@
 - name: Aliyu Kasimu
   institution: The Hong Kong University of Science and Technology
   email: akasimu@connect.ust.hk
-  bio: Amara Tariq is a Senior Data Science Analyst in the Machine Intelligence in Medicine and Imaging (MI-2) lab at Mayo Clinic Arizona. Her research interests lie in the development of fusion models for multi-modal biomedical data for applications including clinical event prediction and opportunistic screening for diseases. 
+  bio: Aliyu is a postgraduate student at The Hong Kong University of Science and Technology. His research interests include physics and data-driven modelling of dynamical systems, with a focus on vehicle-bridge interaction (VBI), particularly the nonsmooth dynamics of VBI systems.
   image: assets/images/amara-tariq.jpg
 
 - name: Franklin Eze
   institution: Central South University
-  email: das.avisha@mayo.edu
-  bio: Avisha is a Research Fellow at Arizona Advanced AI & Innovation (A3I) Hub, Mayo Clinic Arizona. Her research interests lie in Large Language Modeling, focusing on natural language generation and understanding. At the Mayo Clinic, she is working on Privacy Concerns and Mitigation of LLMs in biomedical and healthcare domain.
-  image: assets/images/avisha-das.jpeg
+  email: 244208004@csu.edu.cn
+  bio: Franklin is a graduate student at the High-Speed Train Research Center, Central South University. His interests include Computational Fluid Dynamics (CFD), focusing on vehicle Aerodynamics and Heat Transfer.
+  image: assets/images/franklin-eze.jpg
 
 - name: Ahmed Jamiu Opeyemi
-  institution: Mayo Clinic & ASU
-  bio: Imon Banerjee is a lead AI scientist, affiliated with the Mayo Clinic and Arizona State University. Work in the lab focuses on Multimodal fusion of imaging and nonimaging data for clinical diagnosis and prognosis, NLP to support data curation for state and national cancer registry, and Fair AI model development using computational debiasing.
-  image: assets/images/imon.png
+  institution: University of Kentucky 
+  email: Ahmed.Jamiu@uky.edu
+  bio: Ahmed is a student with the Vibro-Acoustic Consortium at the University of Kentucky. His research interests ranges from analyzing and managing the vibration of engineering structures to management of sound propagating systems. 
+  image: assets/images/ahmed-jamiu.jpg
