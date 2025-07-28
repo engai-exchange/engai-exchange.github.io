@@ -24,25 +24,26 @@ We will be having weekly sessions (on **Mondays, 1-2pm PT**) where our invited g
 ---
 
 Topics of interest to these groups include but are not limited to:
--	Computer vision
--	Natural language Processing
--	Time-series modeling
--	AI-based clinical decision making
--	Medical knowledge engineering
--	Knowledge-based and agent-based systems
--	Computational intelligence in bio- and clinical medicine
--	Intelligent and process-aware information systems in healthcare and medicine
--	Natural language processing in medicine
--	Data analytics and mining for biomedical decision support
--	New computational platforms and models for biomedicine
--	Intelligent exploitation of heterogeneous data sources aimed at supporting decision-based and data-intensive clinical tasks
--	Intelligent devices and instruments
--	Automated reasoning and meta-reasoning in medicine
--	Machine learning in medicine, medically-oriented human biology, and healthcare
--	AI and data science in medicine, medically-oriented human biology, and healthcare
--	AI-based modeling and management of healthcare pathways and clinical guidelines
--	Models and systems for AI-based population health
--	AI in medical and healthcare education
--	Methodological, philosophical, ethical, and social issues of AI in healthcare, medically-oriented human biology, and medicine
+-	Finite Element Method for Structural Integrity Assessment
+-	Vehicle-Bridge Interaction Dynamics
+-	Reduced Order Modeling Structural and Fluid Dynamics
+-	Aerodynamics of High-Speed Vehicles
+-	Advanced Materials for High-Temperature Applications
+-	Sustainable Construction with Recycled Materials
+-	Additive Manufacturing of Metal Components
+-	Smart Grid Integration for Renewable Energy
+-	Nanotechnology in Composite Materials
+-	Predictive Maintenance using Vibration Analysis
+-	Carbon Capture Technologies in Process Engineering
+-	Autonomous Flight Control Systems
+-	Biomechanics Modeling for Prosthetics
+-	Heat Transfer Enhancement with Nanofluids
+-	Structural Health Monitoring of Bridges
+-	Battery Materials for Electric Vehicles
+-	Biofuel Production Optimization
+-	Quantum Sensing in Materials Characterization
+-	Resilient Infrastructure Against Climate Change
+-	Robotics in Precision Manufacturing
+-   All Artificial-Intelligence applications
 
 
