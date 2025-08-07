@@ -13,7 +13,7 @@ The EngAI Group Exchange Sessions aim to foster communication and collaboration 
 We will be having weekly sessions (on **Mondays, 1-2pm PT**) where our invited guests will present their work or a journal club paper followed by an interactive discussion and Q&A among all participants. Sessions will be recorded or livestreamed based on presenters' consent and the recordings will be available for viewership later. Check our [About]({{ 'about' | relative_url}}) page for more details.
 
 [Calendar](https://calendar.google.com/calendar/u/0/embed?src=ab4c643a609c1c1e417badd79027697d716f7bed093114f274c72a8100aafcf6@group.calendar.google.com&ctz=America/Los_Angeles){: .btn .btn-primary .mr-4} 
-[Mailing List](https://mailman.stanford.edu/mailman/listinfo/medai_announce){: .btn .btn-primary .mr-4} 
+[Mailing List](https://groups.google.com/g/engaixchange){: .btn .btn-primary .mr-4} 
 [YouTube](https://www.youtube.com/@ENGAI-Exchange){: .btn .btn-primary .mr-4} 
 [Twitter](https://x.com/EngAIGroup){: .btn .btn-primary .mr-4} 
 [LinkedIn](https://www.linkedin.com/in/engai-xchange-group-7bb575379/){: .btn .btn-primary}

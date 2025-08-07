@@ -17,7 +17,7 @@ The talks will be held **every week** from **1pm-2pm PT** on **Mondays**. You ca
 ## Speaker Schedule
 Check out our [Upcoming Talks]({{ 'upcoming-talks' | relative_url }}) page to get more information about the scheduled talks. We have an exciting line up of speakers. You can visit our [Previous Talks]({{ 'previous-talks' | relative_url }}) page to get a full list of all talks presented at MedAI till date.
 
-[Upcoming Talks]({{ 'upcoming-talks' | relative_url }}){: .btn .btn-primary} 
+[Upcoming Talks]({{ 'upcoming-talks' | relative_url }}){: .btn .btn-primary}
 [Previous Talks]({{ 'previous-talks' | relative_url }}){: .btn .btn-primary}
 
 ## Video Info
@@ -26,7 +26,7 @@ Please email one of the organizers to get the Zoom information. Recorded session
 [Videos](https://www.youtube.com/@ENGAI-Exchange){: .btn .btn-primary}
 
 ## Mailing List and Social Media
-If you'd like to receive notifications and occasional reminders about upcoming talks, you can subscribe to our mailing list directly at `https://mailman.stanford.edu/mailman/listinfo/medai_announce` or click the button below. 
+If you'd like to receive notifications and occasional reminders about upcoming talks, you can joint our google group at `https://groups.google.com/g/engaixchange` or click the button below. 
 
 We also maintain an active Twitter account and a LinkedIn profile for MedAI. Feel free to follow us on these platforms for interesting content, notifications and updates.
 
