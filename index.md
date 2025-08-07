@@ -16,7 +16,7 @@ We will be having weekly sessions (on **Mondays, 1-2pm PT**) where our invited g
 [Mailing List](https://mailman.stanford.edu/mailman/listinfo/medai_announce){: .btn .btn-primary .mr-4} 
 [YouTube](https://www.youtube.com/@ENGAI-Exchange){: .btn .btn-primary .mr-4} 
 [Twitter](https://x.com/EngAIGroup){: .btn .btn-primary .mr-4} 
-[LinkedIn](https://www.linkedin.com/in/stanford-medai-715754216/){: .btn .btn-primary}
+[LinkedIn](https://www.linkedin.com/in/engai-xchange-group-7bb575379/){: .btn .btn-primary}
 
 ---
 ### Check out our [Upcoming Speakers Schedule]({{ 'upcoming-talks' | relative_url}}) and view details of our [Past Speakers]({{ 'previous-talks' | relative_url}}).

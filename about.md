@@ -32,7 +32,7 @@ We also maintain an active Twitter account and a LinkedIn profile for MedAI. Fee
 
 [Subscribe](https://groups.google.com/g/engaixchange){: .btn .btn-primary .mr-4}
 [Twitter](https://x.com/EngAIGroup){: .btn .btn-primary .mr-4}
-[LinkedIn](https://www.linkedin.com/in/stanford-medai-715754216/){: .btn .btn-primary}
+[LinkedIn](https://www.linkedin.com/in/engai-xchange-group-7bb575379/){: .btn .btn-primary}
 
 ## Nominate
 You can nominate a speaker that you'd like to hear from - we'll invite them to our forum. If you'd like to present your work or lead a discussion, you can nominate yourself instead. You can also nominate interesting and relevant papers for discussion in the MedAI exchange sessions. Visit our [Nominate]({{ 'nominate' | relative_url }}) page to add in your nominations.
