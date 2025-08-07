@@ -21,17 +21,17 @@ Check out our [Upcoming Talks]({{ 'upcoming-talks' | relative_url }}) page to ge
 [Previous Talks]({{ 'previous-talks' | relative_url }}){: .btn .btn-primary}
 
 ## Video Info
-Please email one of the organizers to get the Zoom information. Recorded sessions will be posted on our [YouTube channel](https://www.youtube.com/channel/UCOkkljs06NPPkjNysCdQV4w) or livestreamed directly (links will be posted in our [Upcoming Talks]({{ 'upcoming-talks' | relative_url }}) page.
+Please email one of the organizers to get the Zoom information. Recorded sessions will be posted on our [YouTube channel](https://www.youtube.com/@ENGAI-Exchange) or livestreamed directly (links will be posted in our [Upcoming Talks]({{ 'upcoming-talks' | relative_url }}) page.
 
-[Videos](https://www.youtube.com/channel/UCOkkljs06NPPkjNysCdQV4w){: .btn .btn-primary}
+[Videos](https://www.youtube.com/@ENGAI-Exchange){: .btn .btn-primary}
 
 ## Mailing List and Social Media
 If you'd like to receive notifications and occasional reminders about upcoming talks, you can subscribe to our mailing list directly at `https://mailman.stanford.edu/mailman/listinfo/medai_announce` or click the button below. 
 
 We also maintain an active Twitter account and a LinkedIn profile for MedAI. Feel free to follow us on these platforms for interesting content, notifications and updates.
 
-[Subscribe](https://mailman.stanford.edu/mailman/listinfo/medai_announce){: .btn .btn-primary .mr-4}
-[Twitter](https://twitter.com/MedaiStanford){: .btn .btn-primary .mr-4}
+[Subscribe](https://groups.google.com/g/engaixchange){: .btn .btn-primary .mr-4}
+[Twitter](https://x.com/EngAIGroup){: .btn .btn-primary .mr-4}
 [LinkedIn](https://www.linkedin.com/in/stanford-medai-715754216/){: .btn .btn-primary}
 
 ## Nominate
