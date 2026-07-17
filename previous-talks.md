@@ -7,9 +7,10 @@ nav_order: 4
 # Previous Talks
 
 <div class="talks-list">
+  {% assign has_previous = false %}
   {% for talk in site.data.talks reversed %}
     {% if talk.type == 'previous' %}
-      <!-- <br> -->
+      {% assign has_previous = true %}
       <hr>
       <div class="talk-container">
         <h3 class="talk-presenter">({{ talk.date }}) Speaker: {{ talk.speaker }}</h3>
@@ -25,7 +26,7 @@ nav_order: 4
           {% if talk.bio %}
             <div class="talk-subtitle">Bio</div>
             <div> {{ talk.bio}}</div>
-          {% endif %}  
+          {% endif %}
           {% if talk.recording %}
             <div class="talk-subtitle">Video</div>
             <div><a href="{{ talk.recording }}">Video Recording</a></div>
@@ -35,12 +36,15 @@ nav_order: 4
           {% elsif talk.abstract %}
             <div class="talk-subtitle">Video</div>
             <div>Session not recorded on request</div>
-          {% endif %} 
+          {% endif %}
           {% if talk.abstract %}
             <div class="talk-subtitle">Questions for the Speaker</div>
-            <div>Please add your questions to the speaker either to this <a href="https://forms.gle/229GT2yi35NHqHje8" target="_blank">google form</a> or directly under the <a href="https://www.youtube.com/channel/UCOkkljs06NPPkjNysCdQV4w" target="_blank">YouTube video</a></div>
+            <div>Please add your questions under the <a href="https://www.youtube.com/@ENGAI-Exchange" target="_blank">YouTube video</a> or email an <a href="{{ 'organizers' | relative_url }}">organizer</a>.</div>
           {% endif %}
       </div>
     {% endif %}
   {% endfor %}
+  {% unless has_previous %}
+    <p>Previous talks will appear here as sessions are completed.</p>
+  {% endunless %}
 </div>

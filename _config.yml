@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: EngAI Xchange #Stanford&nbsp;MedAI
+title: EngAI Xchange
 description: Forum for engineering research exchanges, including AI applications
-baseurl: / # the subpath of your site, e.g. /blog
-url: https://engai-exchange.github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /
+url: https://engai-exchange.github.io
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
@@ -62,15 +62,13 @@ search:
 # Enable or disable heading anchors
 heading_anchors: true
 
-# Aux links for the upper right navigation
+# Aux links for the upper right navigation (optional)
 # aux_links:
-#   "Rubin Lab":
-#     - "//rubinlab.stanford.edu"
-#   "AIMI Center":
-#     - "//aimi.stanford.edu"
+#   "YouTube":
+#     - "https://www.youtube.com/@ENGAI-Exchange"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: True
+aux_links_new_tab: true
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
