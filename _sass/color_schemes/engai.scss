@@ -1,0 +1,64 @@
+// EngAI Xchange — ink + rose
+// Deep charcoal structure, logo rose accent, clean paper content
+
+$engai-ink: #0f1014;
+$engai-ink-soft: #1a1c24;
+$engai-ink-muted: #2c2f3a;
+$engai-rose: #e29ab4;
+$engai-rose-deep: #c45c7e;
+$engai-rose-soft: #f3d0dc;
+$engai-paper: #fbfafc;
+$engai-paper-warm: #f4f1f5;
+$engai-text: #2a2b32;
+$engai-text-muted: #5c5e6a;
+$engai-border: #e6e2e8;
+
+$body-background-color: $engai-paper;
+$sidebar-color: $engai-ink;
+$border-color: $engai-border;
+
+$body-text-color: $engai-text;
+$body-heading-color: $engai-ink;
+$title-color: $white !important;
+
+$nav-parent-link-color: $engai-rose-soft;
+$nav-expander-link-color: $engai-rose;
+$nav-child-link-color: rgba($white, 0.72);
+
+$aux-nav-link-color: $engai-rose-deep;
+$aux-nav-hover-color: $white;
+$aux-nav-hover-background: $engai-ink;
+$menu-button-color: $engai-rose;
+
+$nav-active-background: $engai-ink-soft;
+$nav-active-color: $engai-rose;
+$nav-hover-background: $engai-ink-soft;
+$nav-hover-color: $white;
+$nav-active-background-child: $engai-ink-muted;
+$nav-active-color-child: $engai-rose-soft;
+$nav-hover-background-child: $engai-ink-muted;
+$nav-hover-color-child: $white;
+
+$side-footer-color: rgba($white, 0.55);
+$side-footer-background-color: $engai-ink;
+$side-footer-link-color: $engai-rose;
+
+$subheading-color: $engai-text-muted;
+
+$link-color: $engai-rose-deep;
+$link-underline-color: $engai-rose-soft;
+$link-underline-hover-color: $engai-rose-deep;
+
+$btn-primary-color: $engai-ink;
+$base-button-color: $engai-paper-warm;
+
+$selection-color: $white;
+$selection-background: $engai-rose-deep;
+
+$code-background-color: $engai-paper-warm;
+
+$search-background-color: $white;
+$search-result-preview-color: $engai-text-muted;
+
+$table-background-color: $engai-paper-warm;
+$feedback-color: lighten($engai-ink, 4%);

@@ -1,132 +1,561 @@
-h1,
-.text-alpha {
-    @include fs-8;
-    font-weight: 500;
-}
+// ============================================================
+// EngAI Xchange — brand skin (ink + rose)
+// ============================================================
 
-// increase base font size
+$engai-ink: #0f1014;
+$engai-ink-soft: #1a1c24;
+$engai-rose: #e29ab4;
+$engai-rose-deep: #c45c7e;
+$engai-rose-soft: #f3d0dc;
+$engai-paper: #fbfafc;
+$engai-paper-warm: #f4f1f5;
+$engai-text: #2a2b32;
+$engai-text-muted: #5c5e6a;
+$engai-border: #e6e2e8;
+$engai-radius: 14px;
+$engai-shadow: 0 10px 40px rgba(15, 16, 20, 0.08);
+$engai-shadow-soft: 0 4px 18px rgba(15, 16, 20, 0.06);
+
+// ------------------------------------------------------------
+// Typography
+// ------------------------------------------------------------
+
+$body-font-family: "Source Sans 3", system-ui, -apple-system, sans-serif !default;
+
 html {
-    @include fs-5;
+  font-size: 17px;
 }
 
-// increase code font-size
-code {
-    font-size: 0.85em;
+body {
+  font-family: "Source Sans 3", system-ui, -apple-system, sans-serif;
+  color: $engai-text;
+  background: $engai-paper;
+  -webkit-font-smoothing: antialiased;
 }
 
-// change H3 to be bolder and in grey
-h3,
-.text-gamma {
-    font-weight: 600;
-    color: $subheading-color;
-
+h1, h2, h3, h4, h5, h6,
+.text-alpha, .text-beta, .text-gamma, .text-delta,
+.talk-presenter, .person-high, .hero-kicker, .section-label {
+  font-family: "Outfit", system-ui, sans-serif;
+  letter-spacing: -0.02em;
 }
 
-// add space below H3 (subheading)
-.main-content h3{
-    margin-bottom: 0.8em;
+h1, .text-alpha {
+  @include fs-9;
+  font-weight: 600;
+  color: $engai-ink;
+  line-height: 1.15;
 }
 
-// increase H4 font size
-h4,
-.text-delta {
-  @include fs-3;
+h2, .text-beta {
+  font-weight: 600;
+  color: $engai-ink;
 }
 
-// add margin-top for paragraphs after headings
+h3, .text-gamma {
+  font-weight: 600;
+  color: $engai-text-muted;
+}
+
+.main-content h3 {
+  margin-bottom: 0.75em;
+}
+
+h4, .text-delta {
+  @include fs-4;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
 .main-content {
-    h1, h2, h3, h4, h5, h6 {
-        + p {
-            margin-top: 1em;
-        }
+  h1, h2, h3, h4, h5, h6 {
+    + p {
+      margin-top: 0.85em;
     }
+  }
 }
 
-// increase nav item font size
+// ------------------------------------------------------------
+// Shell: sidebar, header, logo
+// ------------------------------------------------------------
+
+.side-bar {
+  background: $engai-ink;
+  border-right: none;
+}
+
+.site-header {
+  border-bottom: 1px solid rgba($engai-rose, 0.18) !important;
+  min-height: 5.5rem;
+
+  @include mq(md) {
+    height: auto;
+    max-height: none;
+    min-height: 6.25rem;
+  }
+}
+
+.site-title {
+  padding-top: 0.85rem !important;
+  padding-bottom: 0.85rem !important;
+  padding-right: 0.75rem;
+
+  &:hover {
+    background-image: none;
+  }
+}
+
+.site-logo {
+  width: 100%;
+  height: 3.75rem !important;
+  min-height: 3.75rem;
+  background-size: contain;
+  background-position: left center;
+}
+
 .nav-list .nav-list-item {
-    @include fs-4;
+  @include fs-4;
 
-    @include mq(md) {
-        @include fs-4;
-      }
+  > .nav-list-link {
+    border-radius: 8px;
+    margin: 0 0.5rem;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
 }
 
-// increase aux-nav item font size
-.aux-nav {
-    @include fs-4;
-
+.side-bar .site-footer,
+.site-nav + .site-footer {
+  border-top: 1px solid rgba($engai-rose, 0.12);
 }
 
-// increase search input font size
+// Search bar
 .search-input {
-    @include fs-4;
-
+  @include fs-4;
+  border-radius: 999px;
+  font-family: "Source Sans 3", system-ui, sans-serif;
 }
 
-// increase footer font size
-.site-footer {
-    @include fs-3;
+.main-header {
+  border-bottom: 1px solid $engai-border;
+  background: rgba($engai-paper, 0.92);
+  backdrop-filter: blur(8px);
 }
 
-#markdown-toc {
-    @include fs-3;
+// ------------------------------------------------------------
+// Buttons
+// ------------------------------------------------------------
+
+.btn {
+  border-radius: 999px !important;
+  font-family: "Outfit", system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 0.55rem 1.15rem !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  box-shadow: none;
 }
 
-// Talk CSS
+.btn-primary {
+  background: $engai-ink !important;
+  background-image: none !important;
+  color: $white !important;
+  border: 1px solid $engai-ink !important;
+
+  &:hover {
+    background: $engai-ink-soft !important;
+    background-image: none !important;
+    transform: translateY(-1px);
+    box-shadow: $engai-shadow-soft;
+  }
+}
+
+// Secondary buttons (exclude primary + hero ghost so dark CTAs stay readable)
+.btn:not(.btn-primary):not(.btn-outline):not(.btn-ghost) {
+  background: $engai-paper-warm !important;
+  color: $engai-ink !important;
+  border: 1px solid $engai-border !important;
+
+  &:hover {
+    border-color: $engai-rose !important;
+    color: $engai-rose-deep !important;
+  }
+}
+
+// ------------------------------------------------------------
+// Hero (home)
+// ------------------------------------------------------------
+
+.hero {
+  position: relative;
+  margin: -1rem -1rem 2rem;
+  padding: 2.5rem 1.5rem 2.25rem;
+  border-radius: 0 0 $engai-radius $engai-radius;
+  background:
+    radial-gradient(ellipse 80% 70% at 90% 10%, rgba($engai-rose, 0.22), transparent 55%),
+    radial-gradient(ellipse 60% 50% at 10% 90%, rgba($engai-rose-deep, 0.12), transparent 50%),
+    linear-gradient(160deg, $engai-ink 0%, $engai-ink-soft 55%, #241820 100%);
+  color: $white;
+  overflow: hidden;
+  box-shadow: $engai-shadow;
+
+  @include mq(md) {
+    margin: 0 0 2.5rem;
+    padding: 3rem 2.5rem 2.75rem;
+    border-radius: $engai-radius;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba($engai-rose, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba($engai-rose, 0.06) 1px, transparent 1px);
+    background-size: 28px 28px;
+    mask-image: radial-gradient(ellipse 70% 70% at 70% 30%, black, transparent);
+    pointer-events: none;
+  }
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 42rem;
+}
+
+.hero-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba($engai-rose, 0.15);
+  border: 1px solid rgba($engai-rose, 0.35);
+  color: $engai-rose-soft;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  color: $white !important;
+  margin: 0 0 1rem;
+  font-size: 2rem;
+
+  @include mq(md) {
+    font-size: 2.45rem;
+  }
+}
+
+.hero-lead {
+  margin: 0 0 1.5rem;
+  color: rgba($white, 0.82);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  max-width: 38rem;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.25rem;
+  margin: 0 0 1.75rem;
+  color: rgba($white, 0.7);
+  font-size: 0.95rem;
+}
+
+.hero-meta strong {
+  color: $engai-rose-soft;
+  font-weight: 600;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.hero .btn-primary {
+  background: $engai-rose !important;
+  border-color: $engai-rose !important;
+  color: $engai-ink !important;
+
+  &:hover {
+    background: $engai-rose-soft !important;
+    border-color: $engai-rose-soft !important;
+    color: $engai-ink !important;
+  }
+}
+
+.hero .btn-ghost {
+  background: transparent !important;
+  border: 1px solid rgba($white, 0.28) !important;
+  color: $white !important;
+
+  &:hover {
+    border-color: $engai-rose !important;
+    color: $engai-rose-soft !important;
+    background: rgba($white, 0.04) !important;
+  }
+}
+
+// ------------------------------------------------------------
+// Home sections
+// ------------------------------------------------------------
+
+.section-label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $engai-rose-deep;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+  margin: 1.25rem 0 2rem;
+  padding: 0;
+  list-style: none;
+
+  @include mq(md) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.topic-grid li {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  background: $white;
+  border: 1px solid $engai-border;
+  box-shadow: $engai-shadow-soft;
+  font-size: 0.95rem;
+  color: $engai-text;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 0.45rem;
+    height: 0.45rem;
+    margin-right: 0.65rem;
+    border-radius: 50%;
+    background: $engai-rose;
+    vertical-align: middle;
+  }
+
+  &:hover {
+    border-color: $engai-rose;
+    transform: translateY(-1px);
+  }
+}
+
+.home-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 0.5rem;
+}
+
+// ------------------------------------------------------------
+// Talk cards
+// ------------------------------------------------------------
+
+.talks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.talks-list > hr {
+  display: none;
+}
+
+.talk-container {
+  padding: 1.35rem 1.4rem 1.5rem;
+  border-radius: $engai-radius;
+  background: $white;
+  border: 1px solid $engai-border;
+  box-shadow: $engai-shadow-soft;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    border-color: rgba($engai-rose-deep, 0.35);
+    box-shadow: $engai-shadow;
+  }
+}
 
 .talk-presenter {
-    font-weight: 600;
-    @include fs-6;
-} 
-
-.talk-subtitle {
-    margin: 0.5em 0 0.1em 0;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: $lagunita;
-
-    a {
-        color: $lagunita
-    }
+  font-weight: 600;
+  @include fs-6;
+  color: $engai-ink;
+  margin: 0 0 0.25rem;
 }
 
-// Organizers CSS
+.talk-container h4 {
+  margin: 0 0 1rem;
+  color: $engai-text-muted;
+  font-weight: 500;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  font-size: 0.95rem;
+}
+
+.talk-subtitle {
+  margin: 1rem 0 0.25rem;
+  font-family: "Outfit", system-ui, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: $engai-rose-deep;
+
+  a {
+    color: $engai-rose-deep;
+  }
+}
+
+.talk-empty {
+  padding: 1.5rem;
+  border-radius: $engai-radius;
+  background: $engai-paper-warm;
+  border: 1px dashed $engai-border;
+  color: $engai-text-muted;
+  text-align: center;
+}
+
+// ------------------------------------------------------------
+// Organizer cards
+// ------------------------------------------------------------
 
 .people-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+
+  @include mq(md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .people-card {
-    width: 300px;
-    padding-bottom: 20px;
-    margin: 2rem 0;
-    //padding: 10px 10px 10px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    div {
-        padding: 0px 10px;
-    }
+  width: 100%;
+  margin: 0;
+  padding: 0 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: $engai-radius;
+  background: $white;
+  border: 1px solid $engai-border;
+  box-shadow: $engai-shadow-soft;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: $engai-shadow;
+  }
+
+  div {
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 0.92rem;
+    color: $engai-text-muted;
+  }
 }
 
 .person-image {
-
-    border-radius: 10px;
-    width: 100%;
+  border-radius: 0;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-bottom: 0.85rem;
 }
 
 .person-high {
-    font-weight: 600;
-    color: $lagunita;
-    margin: 0.5em 0 0.1em 0;
+  font-family: "Outfit", system-ui, sans-serif;
+  font-weight: 600;
+  color: $engai-ink;
+  margin: 0.35em 0 0.15em;
+  font-size: 1.05rem;
 }
 
 .person-card-bio {
-    text-align: center;
-    padding: 0 10px;
+  text-align: center;
+  padding: 0.35rem 1rem 0 !important;
+  color: $engai-text !important;
+  font-size: 0.88rem !important;
+  line-height: 1.5;
 }
 
+// ------------------------------------------------------------
+// Footer
+// ------------------------------------------------------------
+
+.site-footer {
+  @include fs-3;
+}
+
+.global-footer {
+  margin-top: 0.5rem;
+}
+
+.footer-container {
+  color: $engai-text-muted;
+  border-top: 1px solid $engai-border;
+  padding-top: 1.5rem !important;
+}
+
+.footer-brand {
+  font-family: "Outfit", system-ui, sans-serif;
+  font-weight: 600;
+  color: $engai-ink;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-child a {
+  color: $engai-rose-deep;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-bottom-color: $engai-rose;
+  }
+}
+
+// ------------------------------------------------------------
+// Content polish
+// ------------------------------------------------------------
+
+.main-content-wrap {
+  padding-top: 1.5rem;
+}
+
+.main-content a:not(.btn):not(.site-button) {
+  background-image: none;
+  text-decoration: none;
+  border-bottom: 1px solid rgba($engai-rose-deep, 0.35);
+
+  &:hover {
+    border-bottom-color: $engai-rose-deep;
+  }
+}
+
+.breadcrumb-nav {
+  margin-bottom: 1rem;
+}

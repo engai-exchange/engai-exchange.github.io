@@ -6,7 +6,9 @@ nav_order: 5
 
 # Nominate Speakers
 
-Please fill out the form below if you’d like to nominate speakers for EngAI Xchange and/or present your own work. Our audience includes students, researchers, and practitioners across engineering disciplines and institutions — with a shared interest in AI and emerging technologies applied to real engineering problems.
+<span class="section-label">Suggest a speaker</span>
+
+Please fill out the form below if you’d like to nominate speakers for EngAI Xchange and/or present your own work. Our audience includes students, researchers, and practitioners across engineering disciplines — with a shared interest in AI and emerging technologies applied to real systems.
 
 [Nominate Speakers](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAApQ6ijxUQ1ZDSjA4U1o4UERGUkU2VlVVM0RQUDlETC4u){: .btn .btn-primary .mr-4}
 

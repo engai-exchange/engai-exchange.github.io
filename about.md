@@ -6,9 +6,9 @@ nav_order: 2
 
 # About EngAI Xchange
 
----
+<span class="section-label">Who we are</span>
 
-## Weekly Exchange Sessions
+## Weekly exchange sessions
 We host weekly sessions (Mondays, 1–2pm PT) where invited speakers present their work or a journal-club paper, followed by interactive discussion and Q&A. Sessions are recorded or livestreamed with presenters’ consent, and recordings are posted for later viewing.
 
 ## Timings

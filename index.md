@@ -2,48 +2,59 @@
 layout: default
 title: Home
 nav_order: 1
-description: "EngAI Xchange Group"
+description: "EngAI Xchange — weekly engineering & AI research exchange sessions"
 permalink: /
 ---
 
-# The EngAI Group Exchange Sessions
+<div class="hero">
+  <div class="hero-inner">
+    <p class="hero-kicker">Weekly research exchange</p>
+    <h1>EngAI Xchange</h1>
+    <p class="hero-lead">
+      A community forum for researchers, practitioners, and students working across engineering disciplines — with a shared focus on AI and emerging technologies that shape real systems.
+    </p>
+    <div class="hero-meta">
+      <span><strong>When</strong> Mondays · 1–2pm PT</span>
+      <span><strong>Format</strong> Talk + discussion</span>
+      <span><strong>Open</strong> to all interested</span>
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ 'upcoming-talks' | relative_url }}">Upcoming talks</a>
+      <a class="btn btn-ghost" href="https://groups.google.com/g/engaixchange" target="_blank" rel="noopener">Join mailing list</a>
+      <a class="btn btn-ghost" href="https://www.youtube.com/@ENGAI-Exchange" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </div>
+</div>
 
-The EngAI Group Exchange Sessions aim to foster communication and collaboration among researchers, practitioners, and students working in various engineering fields, with a particular emphasis on the transformative role of AI and emerging technologies. The sessions will critically explore key topics at the intersection of engineering disciplines and AI, generate innovative ideas, promote interdisciplinary learning, and build a community to address real-world engineering challenges. By bringing together diverse expertise, the goal is to accelerate advancements in areas like sustainable design, automation, and intelligent systems, while encouraging ethical and practical discussions.
+<span class="section-label">About the series</span>
 
-We host weekly sessions (on **Mondays, 1–2pm PT**) where invited guests present their work or a journal-club paper, followed by interactive discussion and Q&A. Sessions are recorded or livestreamed with presenters’ consent, and recordings are posted for later viewing. See our [About]({{ 'about' | relative_url}}) page for more details.
+Invited guests present their research or a journal-club paper, followed by interactive Q&A. Sessions are recorded or livestreamed with presenters’ consent. See [About]({{ 'about' | relative_url }}) for full details.
 
-[Calendar](https://calendar.google.com/calendar/u/0/embed?src=ab4c643a609c1c1e417badd79027697d716f7bed093114f274c72a8100aafcf6@group.calendar.google.com&ctz=America/Los_Angeles){: .btn .btn-primary .mr-4} 
-[Mailing List](https://groups.google.com/g/engaixchange){: .btn .btn-primary .mr-4} 
-[YouTube](https://www.youtube.com/@ENGAI-Exchange){: .btn .btn-primary .mr-4} 
-[X (Twitter)](https://x.com/EngAIGroup){: .btn .btn-primary .mr-4} 
-[LinkedIn](https://www.linkedin.com/in/engai-xchange-group-7bb575379/){: .btn .btn-primary}
+<div class="home-cta-row">
+  <a class="btn btn-primary" href="https://calendar.google.com/calendar/u/0/embed?src=ab4c643a609c1c1e417badd79027697d716f7bed093114f274c72a8100aafcf6@group.calendar.google.com&ctz=America/Los_Angeles" target="_blank" rel="noopener">Calendar</a>
+  <a class="btn" href="{{ 'previous-talks' | relative_url }}">Past speakers</a>
+  <a class="btn" href="{{ 'nominate' | relative_url }}">Nominate a speaker</a>
+  <a class="btn" href="https://x.com/EngAIGroup" target="_blank" rel="noopener">X</a>
+  <a class="btn" href="https://www.linkedin.com/in/engai-xchange-group-7bb575379/" target="_blank" rel="noopener">LinkedIn</a>
+</div>
 
 ---
-### See our [Upcoming Speakers Schedule]({{ 'upcoming-talks' | relative_url}}) and [Past Speakers]({{ 'previous-talks' | relative_url}}).
 
----
+<span class="section-label">Topics of interest</span>
 
-Topics of interest to this group include but are not limited to:
--	Finite Element Method and Applications 
--	Vehicle-Bridge Interaction Dynamics
--	Reduced Order Modeling Structural and Fluid Dynamics
--	Aerodynamics of High-Speed Vehicles
--	Advanced Materials for High-Temperature Applications
--	Sustainable Construction with Recycled Materials
--	Additive Manufacturing of Metal Components
--	Smart Grid Integration for Renewable Energy
--	Nanotechnology in Composite Materials
--	Predictive Maintenance using Vibration Analysis
--	Carbon Capture Technologies in Process Engineering
--	Autonomous Flight Control Systems
--	Biomechanics Modeling for Prosthetics
--	Heat Transfer Enhancement with Nanofluids
--	Structural Health Monitoring of Bridges
--	Battery Materials for Electric Vehicles
--	Biofuel Production Optimization
--	Quantum Sensing in Materials Characterization
--	Resilient Infrastructure Against Climate Change
--	Robotics in Precision Manufacturing
--   All related Artificial-Intelligence Applications
+Themes span classical engineering and modern AI — including, but not limited to:
 
-
+<ul class="topic-grid">
+  <li>Vehicle–bridge interaction dynamics</li>
+  <li>Finite element methods &amp; applications</li>
+  <li>Reduced-order modeling for structures &amp; fluids</li>
+  <li>Aerodynamics of high-speed vehicles</li>
+  <li>Advanced &amp; high-temperature materials</li>
+  <li>Structural health monitoring</li>
+  <li>Predictive maintenance &amp; vibration analysis</li>
+  <li>Additive manufacturing of metal components</li>
+  <li>Smart grids &amp; renewable energy</li>
+  <li>Robotics in precision manufacturing</li>
+  <li>Heat transfer &amp; nanofluids</li>
+  <li>AI applications across engineering</li>
+</ul>
