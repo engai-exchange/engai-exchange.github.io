@@ -10,8 +10,10 @@
     {% endif %}
   {% endunless %}
 
-  <link rel="shortcut icon" href="{{ 'favicon.ico' | relative_url }}" type="image/x-icon">
-
+  <link rel="icon" href="{{ 'favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon-32.png' | relative_url }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon-192.png' | relative_url }}" sizes="192x192">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
 

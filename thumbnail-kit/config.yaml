@@ -1,0 +1,25 @@
+# ============================================================
+# EngAI Xchange — YouTube thumbnail config
+# Edit this file, then run:  python generate.py
+# ============================================================
+
+# Path to speaker photo (relative to this folder, or absolute)
+image: speakers/example-aliyu.jpg
+
+# Shown large on the thumbnail
+speaker: Aliyu Kasimu
+
+# Optional affiliation (smaller line under name)
+institution: HKUST
+
+# Talk title (wraps automatically; keep under ~90 chars for clarity)
+title: "Vehicle–Bridge Interaction: Physics- and Data-Driven Modelling"
+
+# Optional date / session label (chip under brand)
+date: "Jul 28, 2025"
+
+# Optional one-word / short badge (e.g. LIVE, Talk, Journal Club)
+badge: Talk
+
+# Output filename (saved under output/). Leave blank to auto-name from speaker + date.
+output: ""
